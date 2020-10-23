@@ -65,6 +65,6 @@ CREATE TABLE IF NOT EXISTS `restapi`.`hibernate_sequence` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = latin1;
 
-INSERT INTO users (usuario, senha) VALUE ('admin', '123456');
-INSERT INTO users (usuario, senha) VALUE ('comum', '123456');
-INSERT INTO hibernate_sequence(next_val) VALUE (1)
+INSERT INTO users (id, usuario, senha) VALUE (1, 'admin', '123456');
+INSERT INTO users (id, usuario, senha) VALUE (2, 'comum', '123456');
+INSERT INTO hibernate_sequence(next_val) VALUE (3)
