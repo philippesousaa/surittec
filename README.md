@@ -2,7 +2,7 @@
 
 - This application is the implementation of a crud, with two users 'admin' and 'comum'.
 - Even though the application is able to create your own database entities, there is a sql script to create the database and add the users.
-- Before try to login, you must add the default users, you can find the scrip in ../backend/src/main/resource named by create.sql.
+- Before try to login, you must add the default users, you can find the script in ../backend/src/main/resource named by create.sql.
 
 
 ## System Requirement:
